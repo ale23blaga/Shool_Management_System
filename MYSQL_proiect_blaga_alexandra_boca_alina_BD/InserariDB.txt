@@ -1,0 +1,101 @@
+-- Insert addresses
+INSERT INTO Adresa (Tara, Judet, Oras, Strada, Numar) VALUES
+Romania  Cluj  Cluj-Napoca , Strada Memorandumului , 12 ),
+('Romania', 'Cluj', 'Cluj-Napoca', 'Strada Republicii', '34'),
+('Romania', 'Cluj', 'Cluj-Napoca', 'Strada Avram Iancu', '56'),
+('Romania', 'Cluj', 'Floresti', 'Strada Eroilor', '23'),
+('Romania', 'Mures', 'Targu Mures', 'Strada Cuza Voda', '45'),
+('Romania', 'Bihor', 'Oradea', 'Strada Mihai Viteazul', '67'),
+('Romania', 'Brasov', 'Brasov', 'Strada Iuliu Maniu', '89');
+
+INSERT INTO Users (CNP, Nume, Prenume, AdresaID, NrTelefon, Email, IBAN, ContractNumber, UserType, username, parola) VALUES
+('5000101123456', 'Popescu', 'Ion', 1, '0712345678', 'ion.popescu@student.utcn.ro', 'RO49AAAA1B31007593840000', 'C123', 'student', 'popescu.ion', 'password1'),
+('5010202123456', 'Ionescu', 'Maria', 1, '0712345679', 'maria.ionescu@student.utcn.ro', 'RO49AAAA1B31007593840001', 'C124', 'student', 'ionescu.maria', 'password2'),
+('5020303123456', 'Vasile', 'Andrei', 2, '0712345680', 'andrei.vasile@student.utcn.ro', 'RO49AAAA1B31007593840002', 'C125', 'student', 'vasile.andrei', 'password3'),
+('5030404123456', 'Georgescu', 'Mihai', 2, '0712345681', 'mihai.georgescu@student.utcn.ro', 'RO49AAAA1B31007593840003', 'C126', 'student', 'georgescu.mihai', 'password4'),
+('5030505123456', 'Tanase', 'Elena', 3, '0712345682', 'elena.tanase@student.utcn.ro', 'RO49AAAA1B31007593840004', 'C127', 'student', 'tanase.elena', 'password5'),
+('5030606123456', 'Pop', 'Cristian', 4, '0712345683', 'cristian.pop@student.utcn.ro', 'RO49AAAA1B31007593840005', 'C128', 'student', 'pop.cristian', 'password6'),
+('5030707123456', 'Stoica', 'Alina', 5, '0712345684', 'alina.stoica@student.utcn.ro', 'RO49AAAA1B31007593840006', 'C129', 'student', 'stoica.alina', 'password7'),
+('5030808123456', 'Chirila', 'Sorin', 6, '0712345685', 'sorin.chirila@student.utcn.ro', 'RO49AAAA1B31007593840007', 'C130', 'student', 'chirila.sorin', 'password8'),
+('5030909123456', 'Dobre', 'Anca', 7, '0712345686', 'anca.dobre@student.utcn.ro', 'RO49AAAA1B31007593840008', 'C131', 'student', 'dobre.anca', 'password9'),
+('5031010123456', 'Preda', 'Vlad', 2, '0712345687', 'vlad.preda@student.utcn.ro', 'RO49AAAA1B31007593840009', 'C132', 'student', 'preda.vlad', 'password10'),
+('5031111123456', 'Stanciu', 'Irina', 3, '0712345688', 'irina.stanciu@student.utcn.ro', 'RO49AAAA1B31007593840010', 'C133', 'student', 'stanciu.irina', 'password11'),
+('5031212123456', 'Voinea', 'Catalin', 4, '0712345689', 'catalin.voinea@student.utcn.ro', 'RO49AAAA1B31007593840011', 'C134', 'student', 'voinea.catalin', 'password12'),
+('5031313123456', 'Marcu', 'Teodora', 5, '0712345690', 'teodora.marcu@student.utcn.ro', 'RO49AAAA1B31007593840012', 'C135', 'student', 'marcu.teodora', 'password13'),
+('5031414123456', 'Tudor', 'Alexandru', 6, '0712345691', 'alexandru.tudor@student.utcn.ro', 'RO49AAAA1B31007593840013', 'C136', 'student', 'tudor.alexandru', 'password14'),
+('5031515123456', 'Grigore', 'Simona', 7, '0712345692', 'simona.grigore@student.utcn.ro', 'RO49AAAA1B31007593840014', 'C137', 'student', 'grigore.simona', 'password15'),
+('5031616123456', 'Radulescu', 'Bogdan', 2, '0712345693', 'bogdan.radulescu@student.utcn.ro', 'RO49AAAA1B31007593840015', 'C138', 'student', 'radulescu.bogdan', 'password16'),
+('5031717123456', 'Vasilescu', 'Ioana', 3, '0712345694', 'ioana.vasilescu@student.utcn.ro', 'RO49AAAA1B31007593840016', 'C139', 'student', 'vasilescu.ioana', 'password17'),
+('5031818123456', 'Petrescu', 'Daniel', 4, '0712345695', 'daniel.petrescu@student.utcn.ro', 'RO49AAAA1B31007593840017', 'C140', 'student', 'petrescu.daniel', 'password18'),
+('5031919123456', 'Manolescu', 'Carmen', 5, '0712345696', 'carmen.manolescu@student.utcn.ro', 'RO49AAAA1B31007593840018', 'C141', 'student', 'manolescu.carmen', 'password19'),
+('5032020123456', 'Anghel', 'Victor', 6, '0712345697', 'victor.anghel@student.utcn.ro', 'RO49AAAA1B31007593840019', 'C142', 'student', 'anghel.victor', 'password20'),
+
+
+('5030101123456', 'Marin', 'Elena', 3, '0721345678', 'elena.marin@professor.utcn.ro', 'RO49AAAA1B31007593850000', 'P123', 'professor', 'marin.elena', 'profpassword1'),
+('5030202123456', 'Radu', 'Dan', 3, '0721345679', 'dan.radu@professor.utcn.ro', 'RO49AAAA1B31007593850001', 'P124', 'professor', 'radu.dan', 'profpassword2'),
+('5030303123456', 'Constantin', 'Adriana', 3, '0721345680', 'adriana.constantin@professor.utcn.ro', 'RO49AAAA1B31007593850002', 'P125', 'professor', 'constantin.adriana', 'profpassword3'),
+('5030404123456', 'Iliescu', 'Mircea', 4, '0721345681', 'mircea.iliescu@professor.utcn.ro', 'RO49AAAA1B31007593850003', 'P126', 'professor', 'iliescu.mircea', 'profpassword4'),
+('5030505123456', 'Petru', 'Adelina', 5, '0721345682', 'adelina.petru@professor.utcn.ro', 'RO49AAAA1B31007593850004', 'P127', 'professor', 'petru.adelina', 'profpassword5'),
+
+
+('5040101123456', 'Popa', 'Ana', 4, '0731345678', 'ana.popa@admin.utcn.ro', 'RO49AAAA1B31007593860000', 'A123', 'administrator', 'popa.ana', 'adminpassword1'),
+('5040202123456', 'Dumitrescu', 'George', 4, '0731345679', 'george.dumitrescu@admin.utcn.ro', 'RO49AAAA1B31007593860001', 'A124', 'administrator', 'dumitrescu.george', 'adminpassword2'),
+('5040202123456', 'Blaga', 'Alexandra', 4, '0731345679', 'blaga.alexandra@admin.utcn.ro', 'RO49AAAA1B31007593860001', 'A124', 'administrator', 'blaga.alexandra', 'adminpassword2'),
+
+('5050101123456', 'Enescu', 'Carmen', 5, '0741345678', 'carmen.enescu@superadmin.utcn.ro', 'RO49AAAA1B31007593870000', 'SA123', 'super-administrator', 'enescu.carmen', 'superpassword');
+
+INSERT INTO Departament (Nume_dep, Sef_departamentID) VALUES
+('Matematica', 1),
+('Inginerie ', 2),
+('Calculatoare', 3);
+
+INSERT INTO Profesor (ProfesorID, UserID, DepartamentID, Nr_min_ore, Nr_maxim_ore, Total_cursuri, Salariu) VALUES
+(21, 21, 1, 10, 20, 2, 400.00),
+(22,22,  2, 15, 25, 3, 450.00),
+(23,23, 2, 10, 20, 2, 420.00),
+(24,24, 1, 12, 24, 3, 470.00),
+(25,25, 3, 10, 22, 2, 430.00);
+
+INSERT INTO Student (UserID, An_studiu, Nr_ore) VALUES
+(1, 1, 10),
+(2, 2, 10),
+(3, 3, 10),
+(4, 1, 10),
+(5, 2, 10),
+(6, 3, 10),
+(7, 1, 10),
+(8, 2, 10),
+(9, 3, 10),
+(10, 1, 10),
+(11, 2, 10),
+(12, 3, 10),
+(13, 1, 10),
+(14, 2, 10),
+(15, 3, 10),
+(16, 1, 10),
+(17, 2, 10),
+(18, 3, 10),
+(19, 1, 10),
+(20, 2, 10);
+
+
+-- Insert courses
+INSERT INTO Curs (Nume_curs, Descriere, Nr_maxim_studenti) VALUES
+('Matematica Discreta', 'Curs introductiv de matematica discreta.', 50),
+('Structuri de Date', 'Curs despre structuri de date fundamentale.', 50),
+('Algoritmi Avansati', 'Curs despre algoritmi si complexitate.', 50),
+('Inteligenta Artificiala', 'Curs introductiv despre inteligenta artificiala.', 60),
+('Programare Paralela', 'Curs despre concepte si tehnici de programare paralela.', 50),
+('Machine Learning', 'Curs despre algoritmi de invatare automata.', 50);
+
+
+INSERT INTO Profesor_Curs (ProfesorID, CursID) VALUES
+(1, 1),
+(2, 2),
+(3, 3);
+
+INSERT INTO Inscrieri_curs (StudentID, CursID, Data_Inscriere) VALUES
+(1, 1, '2025-01-01'),
+(2, 2, '2025-01-01'),
+(3, 3, '2025-01-01');
+
