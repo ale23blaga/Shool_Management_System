@@ -43,5 +43,5 @@ The **Student Management System** is a Java-based application with a MySQL datab
   - Improved validation and error handling  
 
 ## Contributors
-- **Blaga Alexandra**
-- **Boca Alina**
+- [Blaga Alexandra](https://github.com/ale23blaga)
+- [Boca Alina](https://github.com/bocaalina1)
