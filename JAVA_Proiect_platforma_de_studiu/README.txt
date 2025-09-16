@@ -52,37 +52,7 @@ Creează baza de date: Înainte de a rula proiectul, trebuie să creezi baza de 
 Nume baza de date: Proiect_PlatformaDeStudiu2
 Rulează scripturile SQL furnizate pentru a configura toate tabelele și relațiile necesare.
 Configurează conexiunea la baza de date: În clasa DatabaseConnection, asigură-te că conexiunea la baza de date este configurată corect. Furnizează numele de utilizator, parola și URL-ul bazei de date.
-Rularea aplicației
-Clonează repository-ul:
-bash
-Copy code
-git clone https://github.com/yourusername/StudentManagementSystem.git
-Navighează în folderul proiectului:
-bash
-Copy code
-cd StudentManagementSystem
-Deschide proiectul în IDE-ul tău preferat.
-Rulare aplicație: Rulează clasa Main.java. Aceasta va porni aplicația și va deschide pagina de login.
-Login cu credențiale: În funcție de rolul utilizatorului (administrator, profesor, student), vor fi disponibile diferite opțiuni în aplicație.
-Structura folderelor
-bash
-Copy code
-/StudentManagementSystem
-  /src
-    /school
-      /management
-        /system
-          /dao                # Data Access Objects pentru interacțiunile cu baza de date
-          /models             # Clase Java care reprezintă tabelele din baza de date
-          /services           # Logica de afaceri și servicii ale aplicației
-          /modules            # Panouri GUI și managementul ferestrelor
-          /utils              # Clase utilitare precum InputValidator
-  /resources
-    /database.sql           # Script SQL pentru crearea și popularea bazei de date
-  /lib
-    /jdbc                    # Biblioteci driver JDBC
-  /README.md
-Schema bazei de date
+
 Baza de date constă din mai multe tabele, inclusiv:
 
 Users: Stochează detalii pentru toți utilizatorii.
